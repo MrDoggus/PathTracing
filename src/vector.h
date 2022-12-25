@@ -23,9 +23,9 @@ pt_vect3 pt_vect3_Scale(pt_vect3 v, float factor);
 pt_vect3 pt_vect3_Add(pt_vect3 v1, pt_vect3 v2);
 
 //Computes length of given vector
-float pt_vect3_Length(pt_vect3 v);
+float pt_vect3_Magnitude(pt_vect3 v);
 
 //Prints a vector through the given file pointer
-void pt_vector3_Print(FILE* file, pt_vect3 v);
+void pt_vect3_Print(FILE* file, pt_vect3 v);
 
 #endif

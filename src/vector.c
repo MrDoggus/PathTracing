@@ -63,13 +63,13 @@ pt_vect3 pt_vect3_Scale(pt_vect3 v, float factor)
 }
 
 //Computes length of given vector
-float pt_vect3_Length(pt_vect3 v)
+float pt_vect3_Magnitude(pt_vect3 v)
 {
     return sqrtf(v.x * v.x + v.y * v.y + v.z * v.z);
 }
 
 //Prints a vector through the given file pointer
-void pt_vector3_Print(FILE* file, pt_vect3 v)
+void pt_vect3_Print(FILE* file, pt_vect3 v)
 {
     fprintf(file, "{%f, %f, %f}", v.x, v.y, v.z);
 }
